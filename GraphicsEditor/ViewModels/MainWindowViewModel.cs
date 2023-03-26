@@ -178,7 +178,7 @@ namespace GraphicsEditor.ViewModels
         }
 
         public string shapeName, shapeStartPoint, shapeEndPoint, shapePoints, shapeCommandPath, shapeStrokeColor = colors.ElementAt(0), shapeFillColor = colors.ElementAt(0),
-            shapeAngleCenter, shapeScaleTransform, shapeSkewTransform;
+            shapeAngleCenter = "", shapeScaleTransform = "", shapeSkewTransform = "";
         public double shapeHeight, shapeWidth, shapeStrokeThickness = 1, shapeAngle = 0;
         public string ShapeName { get => shapeName; set=>this.RaiseAndSetIfChanged(ref shapeName, value); }
         public string? ShapeStartPoint { get => shapeStartPoint; set => this.RaiseAndSetIfChanged(ref shapeStartPoint, value); }

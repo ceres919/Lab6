@@ -25,9 +25,9 @@ namespace GraphicsEditor.Models.Shapes
         public string StrokeColor { get; set; }
         public double StrokeThickness { get; set; }
         public double Angle { get; set; }
-        public string? AngleCenter { get; set; } = string.Empty;
-        public string? ScaleTransform { get; set; } = string.Empty;
-        public string? SkewTransform { get; set; } = string.Empty;
+        public string? AngleCenter { get; set; }
+        public string? ScaleTransform { get; set; }
+        public string? SkewTransform { get; set; }
 
         public ShapeEntity() { }
         public ShapeEntity(string name, string strokeColor, double strokeThickness, double angle, string angleCenter, string scaleTransform, string skewTransform)
